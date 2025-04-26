@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Description" content="PJATK / PJAIT PJC">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2566">
+  <style type="text/css">
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #59626a; -webkit-text-stroke: #59626a}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #0f52fc; -webkit-text-stroke: #0f52fc}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #191c1f; -webkit-text-stroke: #191c1f; min-height: 15.0px}
+    p.p6 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #191c1f; -webkit-text-stroke: #191c1f}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 9.2px Menlo; color: #ca1771; -webkit-text-stroke: #ca1771}
+    li.li6 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #191c1f; -webkit-text-stroke: #191c1f}
+    li.li9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #191c1f; -webkit-text-stroke: #191c1f}
+    span.s1 {font-kerning: none}
+    span.s2 {font-kerning: none; color: #59626a; -webkit-text-stroke: 0px #59626a}
+    span.s3 {text-decoration: underline ; font-kerning: none; color: #0f52fc; -webkit-text-stroke: 0px #0f52fc}
+    span.s4 {font: 12.0px 'Helvetica Neue'; text-decoration: underline ; font-kerning: none; color: #0f52fc; -webkit-text-stroke: 0px #0f52fc}
+    span.s5 {font: 10.5px Menlo; font-kerning: none; color: #ca1771; -webkit-text-stroke: 0px #ca1771}
+    span.s6 {font: 12.0px 'Apple Braille'; font-kerning: none}
+    span.s7 {-webkit-text-stroke: 0px #000000}
+    span.s8 {text-decoration: underline ; font-kerning: none}
+    table.t1 {border-collapse: collapse}
+    td.td1 {width: 7.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td2 {width: 107.1px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td3 {width: 306.2px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td4 {width: 112.6px; padding: 1.0px 1.0px 1.0px 1.0px}
+    ol.ol1 {list-style-type: decimal}
+  </style>
+</head>
+<body>
+<h1 style="margin: 0.0px 0.0px 6.0px 0.0px; font: 28.5px '.SF NS'; color: #191c1f; -webkit-text-stroke: #191c1f"><span class="s1">Manipulacja formatem wyświetlania danych</span></h1>
+<p class="p2"><span class="s1">Opublikowano <i>Mar 7, 2024</i><i></i></span></p>
+<p class="p3"><span class="s2">Autor <a href="https://github.com/Filip-FK-Kwiatkowski"><span class="s3"><i>Filip Kwiatkowski</i><i></i></span></a></span></p>
+<p class="p2"><span class="s1"><i>2 min</i> czytania</span></p>
+<p class="p2"><span class="s1">Trudność</span></p>
+<p class="p4"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 6.0px 0.0px; font: 23.1px '.SF NS'; color: #191c1f; -webkit-text-stroke: #191c1f"><span class="s1">Zaawansowane formatowanie tekstu przy użyciu {fmt}</span></h2>
+<p class="p6"><span class="s1">Korzystając z <a href="https://fmt.dev/latest/index.html"><span class="s4">dokumentacji</span></a> oraz <a href="https://hackingcpp.com/cpp/libs/fmt.html"><span class="s4">ściągawki</span></a> do biblioteki {fmt}, stwórz odpowiednie szablony formatowania, które osiągną sprecyzowane niżej cele.</span></p>
+<blockquote style="margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #191c1f; -webkit-text-stroke: #191c1f"><span class="s1">Każde zadanie (lub podpunkt, jeżeli zadanie składa się z podpunktów) powinno być zrealizowane poprzez użycie <b>pojedynczego</b> wywołania </span><span class="s5">fmt::print()</span><span class="s1"> (lub </span><span class="s5">fmt::println()</span><span class="s1">).</span></blockquote>
+<h3 style="margin: 0.0px 0.0px 6.0px 0.0px; font: 20.4px '.SF NS'; color: #191c1f; -webkit-text-stroke: #191c1f"><span class="s1">Wyświetlenie danej wartości kilka razy</span></h3>
+<p class="p6"><span class="s1">Zakładając, że istnieje zmienna </span><span class="s5">x</span><span class="s1">, wyświetl jej wartość trzy razy. Wyświetlane wartości oddziel spacją i obejmij w nawiasy okrągłe.</span></p>
+<p class="p6"><span class="s1">Przykładowo, jeżeli </span><span class="s5">x</span><span class="s1"> to </span><span class="s5">int</span><span class="s1"> o wartości </span><span class="s5">13</span><span class="s1">, program powinien wyświetlić (13) (13) (13). Natomiast jeżeli </span><span class="s5">x</span><span class="s1"> byłby typu </span><span class="s5">std::string</span><span class="s1"> o zawartości </span><span class="s5">"hello"</span><span class="s1">, program powinien wyświetlić (hello) (hello) (hello).</span></p>
+<h3 style="margin: 0.0px 0.0px 6.0px 0.0px; font: 20.4px '.SF NS'; color: #191c1f; -webkit-text-stroke: #191c1f"><span class="s1">Wyświetlanie zarezerwowanych znaków</span></h3>
+<p class="p6"><span class="s1">Wyświetl tekst The simplest C++ program is: "auto main() -&gt; int { }". Zwróć uwagę, że zarówno cudzysłów, jak i klamry są specjalnymi znakami i nie można ich wyświetlić w trywialny sposób.</span></p>
+<h3 style="margin: 0.0px 0.0px 6.0px 0.0px; font: 20.4px '.SF NS'; color: #191c1f; -webkit-text-stroke: #191c1f"><span class="s1">Manipulacja separatorem w kontenerach</span></h3>
+<p class="p6"><span class="s1">Wyświetl w dwóch linijkach zawartość tego samego wektora. Pierwsza z nich powinna wyświetlić go w domyślny sposób, w jaki robi to {fmt}, a druga powinna zawrzeć jego elementy w znaki </span><span class="s5">$</span><span class="s1"> i między każdym elementem wstawić separator </span><span class="s6">⠀</span><span class="s1">-</span><span class="s6">⠀</span><span class="s1">. Przykładowo, jeżeli wektor składa się z elementów 1 7 1 3 7, to program powinien wyświetlić następujący wynik:</span></p>
+<p class="p4"><span class="s1"></span><br></p>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p8"><span class="s1">1</span></p>
+        <p class="p8"><span class="s1">2</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p8"><span class="s1">[1, 7, 1, 3, 7]</span></p>
+        <p class="p8"><span class="s1">$1 - 7 - 1 - 3 - 7$</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h3 style="margin: 0.0px 0.0px 6.0px 0.0px; font: 20.4px '.SF NS'; color: #191c1f; -webkit-text-stroke: #191c1f"><span class="s1">Manipulacja kolejnością i krotnością wyświetlanych elementów</span></h3>
+<p class="p6"><span class="s1">Uzupełnij następujące wywołanie o odpowiedni szablon formatujący tak, aby został wyświetlony tekst ?I'm enclosed in question marks?:</span></p>
+<p class="p4"><span class="s1"></span><br></p>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p8"><span class="s1">1</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p8"><span class="s1">fmt::print(..., '?', "I'm enclosed in question marks");</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h3 style="margin: 0.0px 0.0px 6.0px 0.0px; font: 20.4px '.SF NS'; color: #191c1f; -webkit-text-stroke: #191c1f"><span class="s1">Formatowanie liczb</span></h3>
+<ol class="ol1">
+  <li class="li6"><span class="s7"></span><span class="s1">Wyświetl wartość jakieś zmiennej typu zmiennoprzecinkowego z dokładnością do dwóch miejsc po przecinku.<br>
+Na przykład dla wartości </span><span class="s5">1.337</span><span class="s1">, poprawnym outputem powinno być 1.34.</span></li>
+  <li class="li6"><span class="s7"></span><span class="s1">Wyświetl wartość jakiejś zmiennej typu całkowitoliczbowego w systemie binarnym, dziesiętnym i heksadecymalnym. Przy wywołaniu funkcji wyświetlającej (</span><span class="s5">fmt::print()</span><span class="s1"> lub </span><span class="s5">fmt::println()</span><span class="s1">) użyj argumentu przechowującego liczbę tylko raz.<br>
+Na przykład dla liczby </span><span class="s5">74</span><span class="s1">, poprawnym outputem powinno być 1001010 74 4a.</span></li>
+</ol>
+<h3 style="margin: 0.0px 0.0px 6.0px 0.0px; font: 20.4px '.SF NS'; color: #191c1f; -webkit-text-stroke: #191c1f"><span class="s1">Justowanie tekstu</span></h3>
+<p class="p6"><span class="s1">Zakładając, że istnieje zmienna </span><span class="s5">text</span><span class="s1"> typu </span><span class="s5">std::string</span><span class="s1"> i \(N\) oznacza liczbę jej znaków (</span><span class="s5">text.size()</span><span class="s1">), wyświetl linijkę składającą się z 20 znaków </span><span class="s5">#</span><span class="s1">, gdzie:</span></p>
+<ol class="ol1">
+  <li class="li9"><span class="s7"></span><span class="s1">Pierwsze \(N\) znaków </span><span class="s5">#</span><span class="s1"> zostanie zastąpione przez zawartość z </span><span class="s5">text</span><span class="s1">.</span></li>
+  <li class="li9"><span class="s7"></span><span class="s1">Ostatnie \(N\) znaków </span><span class="s5">#</span><span class="s1"> zostanie zastąpione przez zawartość z </span><span class="s5">text</span><span class="s1">.</span></li>
+  <li class="li9"><span class="s7"></span><span class="s1">Środkowe \(N\) znaków </span><span class="s5">#</span><span class="s1"> zostanie zastąpione przez zawartość z </span><span class="s5">text</span><span class="s1">.</span></li>
+</ol>
+<p class="p6"><span class="s1">Przykładowo, jeżeli </span><span class="s5">text</span><span class="s1"> przechowuje napis Hello!, to out powinien wyglądać tak:</span></p>
+<p class="p4"><span class="s1"></span><br></p>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p8"><span class="s1">1</span></p>
+        <p class="p8"><span class="s1">2</span></p>
+        <p class="p8"><span class="s1">3</span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p8"><span class="s1">Hello!##############</span></p>
+        <p class="p8"><span class="s1">##############Hello!</span></p>
+        <p class="p8"><span class="s1">#######Hello!#######</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p3"><span class="s8"><a href="file:///~fk/tags/core/">Core</a></span><span class="s2"> <a href="file:///~fk/tags/wyk%C5%82ad-2/"><span class="s3">Wykład 2</span></a> <a href="file:///~fk/tags/fmt/"><span class="s3">fmt</span></a> <a href="file:///~fk/tags/output/"><span class="s3">output</span></a></span></p>
+</body>
+</html>

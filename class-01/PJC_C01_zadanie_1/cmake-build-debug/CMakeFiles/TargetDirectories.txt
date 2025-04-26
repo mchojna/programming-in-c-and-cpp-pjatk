@@ -1,0 +1,3 @@
+C:/Users/mchoj/Desktop/PJC_C01_zadanie_1/cmake-build-debug/CMakeFiles/PJC_C01_zadanie_1.dir
+C:/Users/mchoj/Desktop/PJC_C01_zadanie_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mchoj/Desktop/PJC_C01_zadanie_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,14 @@
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C06/PJC_C06_zadanie_5/cmake-build-debug/CMakeFiles/PJC_C06_zadanie_5.dir
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C06/PJC_C06_zadanie_5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C06/PJC_C06_zadanie_5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C06/PJC_C06_zadanie_5/cmake-build-debug/CMakeFiles/list_install_components.dir
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C06/PJC_C06_zadanie_5/cmake-build-debug/CMakeFiles/install.dir
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C06/PJC_C06_zadanie_5/cmake-build-debug/CMakeFiles/install/local.dir
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C06/PJC_C06_zadanie_5/cmake-build-debug/CMakeFiles/install/strip.dir
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C06/PJC_C06_zadanie_5/cmake-build-debug/_deps/fmt-build/CMakeFiles/fmt.dir
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C06/PJC_C06_zadanie_5/cmake-build-debug/_deps/fmt-build/CMakeFiles/edit_cache.dir
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C06/PJC_C06_zadanie_5/cmake-build-debug/_deps/fmt-build/CMakeFiles/rebuild_cache.dir
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C06/PJC_C06_zadanie_5/cmake-build-debug/_deps/fmt-build/CMakeFiles/list_install_components.dir
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C06/PJC_C06_zadanie_5/cmake-build-debug/_deps/fmt-build/CMakeFiles/install.dir
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C06/PJC_C06_zadanie_5/cmake-build-debug/_deps/fmt-build/CMakeFiles/install/local.dir
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C06/PJC_C06_zadanie_5/cmake-build-debug/_deps/fmt-build/CMakeFiles/install/strip.dir

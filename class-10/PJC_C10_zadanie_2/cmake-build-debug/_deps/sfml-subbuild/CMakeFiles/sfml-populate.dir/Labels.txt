@@ -1,0 +1,14 @@
+# Target labels
+ sfml-populate
+# Source files and their labels
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate.rule
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete.rule
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build.rule
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure.rule
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download.rule
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install.rule
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir.rule
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch.rule
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test.rule
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update.rule

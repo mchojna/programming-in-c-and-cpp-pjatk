@@ -1,0 +1,3 @@
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C09/PJC_C09_zadanie_1/cmake-build-debug/CMakeFiles/PJC_C09_zadanie_1.dir
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C09/PJC_C09_zadanie_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C09/PJC_C09_zadanie_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

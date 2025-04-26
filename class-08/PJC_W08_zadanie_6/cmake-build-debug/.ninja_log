@@ -1,0 +1,22 @@
+# ninja log v6
+2	668	1732365749231044788	_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o	1006517baa6683c
+1	1429	1732365749230435888	_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o	2a6c0ba4b1ec0580
+5	72	1732365755218541405	_deps/fmt-build/libfmtd.a	fa0a04e876dba92a
+6	970	1732365827542771237	CMakeFiles/PJC_C08_zadanie_6.dir/main.cpp.o	c6d3e1ae93ef6f7f
+972	1149	1732365828508749236	PJC_C08_zadanie_6	ef0ba3baf00ab21c
+5	1115	1732365941128096890	CMakeFiles/PJC_C08_zadanie_6.dir/main.cpp.o	c6d3e1ae93ef6f7f
+1116	1268	1732365942239148165	PJC_C08_zadanie_6	ef0ba3baf00ab21c
+5	1123	1732365963547837315	CMakeFiles/PJC_C08_zadanie_6.dir/main.cpp.o	c6d3e1ae93ef6f7f
+1123	1276	1732365964666279596	PJC_C08_zadanie_6	ef0ba3baf00ab21c
+6	1098	1732365994839825172	CMakeFiles/PJC_C08_zadanie_6.dir/main.cpp.o	c6d3e1ae93ef6f7f
+1098	1249	1732365995931203986	PJC_C08_zadanie_6	ef0ba3baf00ab21c
+5	1148	1732366053229780642	CMakeFiles/PJC_C08_zadanie_6.dir/main.cpp.o	c6d3e1ae93ef6f7f
+1149	1300	1732366054373789930	PJC_C08_zadanie_6	ef0ba3baf00ab21c
+15	1113	1732366116825306730	CMakeFiles/PJC_C08_zadanie_6.dir/main.cpp.o	c6d3e1ae93ef6f7f
+1115	1269	1732366117925148228	PJC_C08_zadanie_6	ef0ba3baf00ab21c
+6	1211	1732366705099703107	CMakeFiles/PJC_C08_zadanie_6.dir/main.cpp.o	c6d3e1ae93ef6f7f
+1213	1405	1732366706306319227	PJC_C08_zadanie_6	ef0ba3baf00ab21c
+5	1197	1732366809856123558	CMakeFiles/PJC_C08_zadanie_6.dir/main.cpp.o	c6d3e1ae93ef6f7f
+1199	1374	1732366811050191469	PJC_C08_zadanie_6	ef0ba3baf00ab21c
+4	1108	1732366818209112790	CMakeFiles/PJC_C08_zadanie_6.dir/main.cpp.o	c6d3e1ae93ef6f7f
+1109	1172	1732366819313587072	PJC_C08_zadanie_6	ef0ba3baf00ab21c

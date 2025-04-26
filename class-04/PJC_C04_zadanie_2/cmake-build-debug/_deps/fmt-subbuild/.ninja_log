@@ -1,0 +1,21 @@
+# ninja log v6
+1	66	1730482091924413306	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-mkdir	48ea2ee93fd960a
+1	66	1730482091924413306	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C04/PJC_C04_zadanie_2/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-mkdir	48ea2ee93fd960a
+66	5382	1730482097239969622	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-download	9a1385e468945a10
+66	5382	1730482097239969622	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C04/PJC_C04_zadanie_2/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-download	9a1385e468945a10
+5382	5470	1730482097242035243	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-update	71af5145c24743bf
+5382	5470	1730482097242035243	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C04/PJC_C04_zadanie_2/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-update	71af5145c24743bf
+5470	5505	1730482097364225978	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-patch	a0b90bb91e414a61
+5470	5505	1730482097364225978	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C04/PJC_C04_zadanie_2/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-patch	a0b90bb91e414a61
+5506	5539	1730482097398033225	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-configure	d510b03b330eee00
+5506	5539	1730482097398033225	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C04/PJC_C04_zadanie_2/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-configure	d510b03b330eee00
+5539	5579	1730482097437755965	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-build	20c2a2a6287c7a12
+5539	5579	1730482097437755965	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C04/PJC_C04_zadanie_2/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-build	20c2a2a6287c7a12
+5579	5621	1730482097479518618	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-install	bb2a9210d918864d
+5579	5621	1730482097479518618	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C04/PJC_C04_zadanie_2/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-install	bb2a9210d918864d
+5621	5660	1730482097517672351	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-test	4fcc61d123cdc933
+5621	5660	1730482097517672351	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C04/PJC_C04_zadanie_2/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-test	4fcc61d123cdc933
+5660	5719	1730482097577342064	CMakeFiles/fmt-populate-complete	fc33692163f8541a
+5660	5719	1730482097577342064	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-done	fc33692163f8541a
+5660	5719	1730482097577342064	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C04/PJC_C04_zadanie_2/cmake-build-debug/_deps/fmt-subbuild/CMakeFiles/fmt-populate-complete	fc33692163f8541a
+5660	5719	1730482097577342064	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C04/PJC_C04_zadanie_2/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-done	fc33692163f8541a

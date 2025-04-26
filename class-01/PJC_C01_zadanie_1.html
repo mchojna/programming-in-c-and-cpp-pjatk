@@ -1,0 +1,258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Description" content="PJATK / PJAIT PJC">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2566">
+  <style type="text/css">
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #59626a; -webkit-text-stroke: #59626a}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #0f52fc; -webkit-text-stroke: #0f52fc}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #191c1f; -webkit-text-stroke: #191c1f; min-height: 15.0px}
+    p.p6 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #191c1f; -webkit-text-stroke: #191c1f}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 9.2px Menlo; color: #ca1771; -webkit-text-stroke: #ca1771}
+    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 9.2px Menlo; color: #ca1771; -webkit-text-stroke: #ca1771; min-height: 11.0px}
+    li.li6 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #191c1f; -webkit-text-stroke: #191c1f}
+    li.li10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #191c1f; -webkit-text-stroke: #191c1f}
+    span.s1 {font-kerning: none}
+    span.s2 {font-kerning: none; color: #59626a; -webkit-text-stroke: 0px #59626a}
+    span.s3 {text-decoration: underline ; font-kerning: none; color: #0f52fc; -webkit-text-stroke: 0px #0f52fc}
+    span.s4 {font: 10.5px Menlo; font-kerning: none; color: #ca1771; -webkit-text-stroke: 0px #ca1771}
+    span.s5 {font: 9.0px 'Helvetica Neue'; text-decoration: underline ; font-kerning: none; color: #0f52fc; -webkit-text-stroke: 0px #0f52fc}
+    span.s6 {-webkit-text-stroke: 0px #000000}
+    span.s7 {font: 10.5px Menlo; color: #ca1771; -webkit-text-stroke: 0px #000000}
+    span.s8 {font: 12.0px 'Lucida Grande'; text-decoration: underline ; font-kerning: none; color: #0f52fc; -webkit-text-stroke: 0px #0f52fc}
+    span.s9 {text-decoration: underline ; font-kerning: none}
+    table.t1 {border-collapse: collapse}
+    td.td1 {width: 13.1px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td2 {width: 262.0px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td3 {width: 339.4px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td4 {width: 383.7px; padding: 1.0px 1.0px 1.0px 1.0px}
+    ol.ol1 {list-style-type: decimal}
+    ul.ul1 {list-style-type: disc}
+  </style>
+</head>
+<body>
+<h1 style="margin: 0.0px 0.0px 6.0px 0.0px; font: 28.5px '.SF NS'; color: #191c1f; -webkit-text-stroke: #191c1f"><span class="s1">Migracja kodu Java na C++</span></h1>
+<p class="p2"><span class="s1">Opublikowano <i>Sep 10, 2023</i><i></i></span></p>
+<p class="p3"><span class="s2">Autor <a href="https://github.com/Filip-FK-Kwiatkowski"><span class="s3"><i>Filip Kwiatkowski</i><i></i></span></a></span></p>
+<p class="p2"><span class="s1"><i>2 min</i> czytania</span></p>
+<p class="p2"><span class="s1">Trudność</span></p>
+<p class="p4"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 6.0px 0.0px; font: 23.1px '.SF NS'; color: #191c1f; -webkit-text-stroke: #191c1f"><span class="s1">Implementowanie tych samych programów w wielu językach programowania</span></h2>
+<p class="p6"><span class="s1">Języki programowania to narzędzia. Jest ich wiele, ponieważ różne problemy wymagają różnych podejść, różnych architektur i różnych ułatwień. Mimo to, różne języki mają części wspólne. Zwłaszcza języki zastosowania ogólnego (ang. <i>general-purpose</i>). W takich językach często za pomocą różnych składni można osiągnąć to samo zachowanie.</span></p>
+<p class="p6"><span class="s1">W celu lepszego zapoznania się z językiem C++ przepisz na niego poniższe Javowe programy:</span></p>
+<h3 style="margin: 0.0px 0.0px 6.0px 0.0px; font: 20.4px '.SF NS'; color: #191c1f; -webkit-text-stroke: #191c1f"><span class="s1">Przywitanie użytkownika</span></h3>
+<p class="p4"><span class="s1"></span><br></p>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p8"><span class="s1">1</span></p>
+        <p class="p8"><span class="s1">2</span></p>
+        <p class="p8"><span class="s1">3</span></p>
+        <p class="p8"><span class="s1">4</span></p>
+        <p class="p8"><span class="s1">5</span></p>
+        <p class="p8"><span class="s1">6</span></p>
+        <p class="p8"><span class="s1">7</span></p>
+        <p class="p8"><span class="s1">8</span></p>
+        <p class="p8"><span class="s1">9</span></p>
+        <p class="p8"><span class="s1">10</span></p>
+        <p class="p8"><span class="s1">11</span></p>
+        <p class="p8"><span class="s1">12</span></p>
+        <p class="p8"><span class="s1">13</span></p>
+        <p class="p8"><span class="s1">14</span></p>
+        <p class="p8"><span class="s1">15</span></p>
+        <p class="p8"><span class="s1">16</span></p>
+        <p class="p8"><span class="s1">17</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p8"><span class="s1">import java.util.Scanner;</span></p>
+        <p class="p9"><span class="s1"></span><br></p>
+        <p class="p8"><span class="s1">public class Main {</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">    </span>public static void main(String[] args) {</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>Scanner input = new Scanner(System.in);</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>String name;</span></p>
+        <p class="p9"><span class="s1"></span><br></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>System.out.print("Input your name: ");</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>name = input.next();</span></p>
+        <p class="p9"><span class="s1"></span><br></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>if (name.equals("Einstein")) {</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">            </span>System.out.println("I know you!");</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>} else {</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">            </span>System.out.println("Greetings.");</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+        <p class="p8"><span class="s1">}</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<blockquote style="margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #191c1f; -webkit-text-stroke: #191c1f"><span class="s1">Zwróć uwagę na różnice — w C++ nie ma </span><span class="s4">Scanner</span><span class="s1">a ani metody </span><span class="s4">.equals()</span><span class="s1">.</span></blockquote>
+<p class="p6"><span class="s1">Jak zatem porównać, czy dwie zmienne przechowujące tekst są równe?</span></p>
+<h3 style="margin: 0.0px 0.0px 6.0px 0.0px; font: 20.4px '.SF NS'; color: #191c1f; -webkit-text-stroke: #191c1f"><span class="s1">Gra w zgadywanie liczby</span></h3>
+<p class="p4"><span class="s1"></span><br></p>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p8"><span class="s1">1</span></p>
+        <p class="p8"><span class="s1">2</span></p>
+        <p class="p8"><span class="s1">3</span></p>
+        <p class="p8"><span class="s1">4</span></p>
+        <p class="p8"><span class="s1">5</span></p>
+        <p class="p8"><span class="s1">6</span></p>
+        <p class="p8"><span class="s1">7</span></p>
+        <p class="p8"><span class="s1">8</span></p>
+        <p class="p8"><span class="s1">9</span></p>
+        <p class="p8"><span class="s1">10</span></p>
+        <p class="p8"><span class="s1">11</span></p>
+        <p class="p8"><span class="s1">12</span></p>
+        <p class="p8"><span class="s1">13</span></p>
+        <p class="p8"><span class="s1">14</span></p>
+        <p class="p8"><span class="s1">15</span></p>
+        <p class="p8"><span class="s1">16</span></p>
+        <p class="p8"><span class="s1">17</span></p>
+        <p class="p8"><span class="s1">18</span></p>
+        <p class="p8"><span class="s1">19</span></p>
+        <p class="p8"><span class="s1">20</span></p>
+        <p class="p8"><span class="s1">21</span></p>
+        <p class="p8"><span class="s1">22</span></p>
+        <p class="p8"><span class="s1">23</span></p>
+        <p class="p8"><span class="s1">24</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p8"><span class="s1">import java.util.Scanner;</span></p>
+        <p class="p9"><span class="s1"></span><br></p>
+        <p class="p8"><span class="s1">public class Main {</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">    </span>public static void main(String[] args) {</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>Scanner input = new Scanner(System.in);</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>int numberToGuess = (int)(Math.random() * 100);</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>int guessedNumber = -1;</span></p>
+        <p class="p9"><span class="s1"></span><br></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>while (guessedNumber != numberToGuess) {</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">            </span>System.out.print("Guess a number: ");</span></p>
+        <p class="p9"><span class="s1"></span><br></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">            </span>guessedNumber = input.nextInt();</span></p>
+        <p class="p9"><span class="s1"></span><br></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">            </span>if (guessedNumber &gt; numberToGuess) {</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">                </span>System.out.println("Too big. Try lower.");</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">            </span>if (guessedNumber &lt; numberToGuess) {</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">                </span>System.out.println("Too small. Try higher.");</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+        <p class="p9"><span class="s1"></span><br></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>System.out.println("Congratulations!");</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+        <p class="p8"><span class="s1">}</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<blockquote style="margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #191c1f; -webkit-text-stroke: #191c1f"><span class="s1">Zwróć uwagę na różnice — w C++ nie ma </span><span class="s4">Math.random()</span><span class="s1">. Użyj </span><span class="s4">std::rand()</span><span class="s1"> do łatwego losowania</span><span class="s5">1</span><span class="s1"> lub biblioteki </span><span class="s4">&lt;random&gt;</span><span class="s1"> do wyszukanego sterowania mechanizmami pseudolosowości.</span></blockquote>
+<p class="p6"><span class="s1">Czego, zamiast tego, należy użyć?</span></p>
+<h3 style="margin: 0.0px 0.0px 6.0px 0.0px; font: 20.4px '.SF NS'; color: #191c1f; -webkit-text-stroke: #191c1f"><span class="s1">Weryfikacja, czy wprowadzone przez użytkownika liczby są liczbami pierwszymi</span></h3>
+<p class="p4"><span class="s1"></span><br></p>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p8"><span class="s1">1</span></p>
+        <p class="p8"><span class="s1">2</span></p>
+        <p class="p8"><span class="s1">3</span></p>
+        <p class="p8"><span class="s1">4</span></p>
+        <p class="p8"><span class="s1">5</span></p>
+        <p class="p8"><span class="s1">6</span></p>
+        <p class="p8"><span class="s1">7</span></p>
+        <p class="p8"><span class="s1">8</span></p>
+        <p class="p8"><span class="s1">9</span></p>
+        <p class="p8"><span class="s1">10</span></p>
+        <p class="p8"><span class="s1">11</span></p>
+        <p class="p8"><span class="s1">12</span></p>
+        <p class="p8"><span class="s1">13</span></p>
+        <p class="p8"><span class="s1">14</span></p>
+        <p class="p8"><span class="s1">15</span></p>
+        <p class="p8"><span class="s1">16</span></p>
+        <p class="p8"><span class="s1">17</span></p>
+        <p class="p8"><span class="s1">18</span></p>
+        <p class="p8"><span class="s1">19</span></p>
+        <p class="p8"><span class="s1">20</span></p>
+        <p class="p8"><span class="s1">21</span></p>
+        <p class="p8"><span class="s1">22</span></p>
+        <p class="p8"><span class="s1">23</span></p>
+        <p class="p8"><span class="s1">24</span></p>
+        <p class="p8"><span class="s1">25</span></p>
+        <p class="p8"><span class="s1">26</span></p>
+        <p class="p8"><span class="s1">27</span></p>
+        <p class="p8"><span class="s1">28</span></p>
+        <p class="p8"><span class="s1">29</span></p>
+        <p class="p8"><span class="s1">30</span></p>
+        <p class="p8"><span class="s1">31</span></p>
+        <p class="p8"><span class="s1">32</span></p>
+        <p class="p8"><span class="s1">33</span></p>
+        <p class="p8"><span class="s1">34</span></p>
+        <p class="p8"><span class="s1">35</span></p>
+        <p class="p8"><span class="s1">36</span></p>
+        <p class="p8"><span class="s1">37</span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p8"><span class="s1">import java.util.ArrayList;</span></p>
+        <p class="p8"><span class="s1">import java.util.List;</span></p>
+        <p class="p8"><span class="s1">import java.util.Scanner;</span></p>
+        <p class="p9"><span class="s1"></span><br></p>
+        <p class="p8"><span class="s1">public class Main {</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">    </span>public static void main(String[] args) {</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>Scanner input = new Scanner(System.in);</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>System.out.println("Please input the numbers.");</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>System.out.println("Type in a negative number to stop.");</span></p>
+        <p class="p9"><span class="s1"></span><br></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>List&lt;Integer&gt; numbersToCheckForPrimality = new ArrayList&lt;&gt;();</span></p>
+        <p class="p9"><span class="s1"></span><br></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>for (</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">                </span>int number = input.nextInt();</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">                </span>number &gt;= 0;</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">                </span>number = input.nextInt()</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>) {</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">            </span>numbersToCheckForPrimality.add(number);</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+        <p class="p9"><span class="s1"></span><br></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>for (int number : numbersToCheckForPrimality) {</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">            </span>if (isPrime(number)) {</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">                </span>System.out.println(number + " is prime.");</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">            </span>} else {</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">                </span>System.out.println(number + " is not prime.");</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+        <p class="p9"><span class="s1"></span><br></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">    </span>public static boolean isPrime(int number) {</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>if (number &lt; 2) return false;</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>for (int i = 2; i &lt;= Math.sqrt(number); i++) {</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">            </span>if (number % i == 0) return false;</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">        </span>return true;</span></p>
+        <p class="p8"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+        <p class="p8"><span class="s1">}</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<blockquote style="margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #191c1f; -webkit-text-stroke: #191c1f"><span class="s1">Zwróć uwagę na różnice:</span></blockquote>
+<ul class="ul1">
+  <li class="li10"><span class="s6"></span><span class="s1">w C++ nie ma </span><span class="s4">List&lt;&gt;</span><span class="s1"> ani </span><span class="s4">ArrayList&lt;&gt;</span><span class="s1">. W celu stworzenia kolekcji, która przechowuje zmienną liczbę elementów (czyli wiemy, że zwykła tablica się nie nada), użyj </span><span class="s4">std::vector</span><span class="s1">.</span></li>
+  <li class="li10"><span class="s6"></span><span class="s1">W C++ funkcje pomocnicze nie muszą być metodami klas (a więc nie trzeba używać modyfikatora </span><span class="s4">static</span><span class="s1">).</span></li>
+</ul>
+<ul class="ul1">
+  <li class="li10"><span class="s6"></span><span class="s1">Jak dodasz nowy element do wektora?</span></li>
+  <li class="li10"><span class="s6"></span><span class="s1">Gdzie stworzysz funkcję pomocniczą?</span></li>
+</ul>
+<p class="p4"><span class="s1"></span><br></p>
+<ol class="ol1">
+  <li class="li6"><span class="s7"></span><span class="s4">std::rand()</span><span class="s1"> jest bardzo niskiej jakości generatorem liczb pseudolosowych. W przypadku bardzo prostych programów można go używać, lecz w przypadku wyszukanych symulacji, na podstawie których chcemy wysnuć jakieś wnioski dotyczące badań naukowych, zdecydowanie lepiej jest użyć wysokiej jakości elementów z biblioteki </span><span class="s4">&lt;random&gt;</span><span class="s1">. Niestety biblioteka ta jest bardzo trudna w użyciu dla początkujących. </span><span class="s8">↩</span></li>
+</ol>
+<p class="p3"><span class="s9"><a href="file:///~fk/tags/wyk%C5%82ad-1/">Wykład 1</a></span><span class="s2"> <a href="file:///~fk/tags/java/"><span class="s3">Java</span></a> <a href="file:///~fk/tags/string/"><span class="s3">string</span></a> <a href="file:///~fk/tags/vector/"><span class="s3">vector</span></a> <a href="file:///~fk/tags/random/"><span class="s3">random</span></a></span></p>
+</body>
+</html>

@@ -1,0 +1,14 @@
+# Target labels
+ fmt-populate
+# Source files and their labels
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C04/PJC_C04_zadanie_3/cmake-build-debug/_deps/fmt-subbuild/CMakeFiles/fmt-populate
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C04/PJC_C04_zadanie_3/cmake-build-debug/_deps/fmt-subbuild/CMakeFiles/fmt-populate.rule
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C04/PJC_C04_zadanie_3/cmake-build-debug/_deps/fmt-subbuild/CMakeFiles/fmt-populate-complete.rule
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C04/PJC_C04_zadanie_3/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-build.rule
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C04/PJC_C04_zadanie_3/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-configure.rule
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C04/PJC_C04_zadanie_3/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-download.rule
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C04/PJC_C04_zadanie_3/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-install.rule
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C04/PJC_C04_zadanie_3/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-mkdir.rule
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C04/PJC_C04_zadanie_3/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-patch.rule
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C04/PJC_C04_zadanie_3/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-test.rule
+/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C04/PJC_C04_zadanie_3/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-update.rule

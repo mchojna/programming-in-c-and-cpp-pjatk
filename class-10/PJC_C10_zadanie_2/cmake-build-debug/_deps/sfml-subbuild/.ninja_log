@@ -1,0 +1,37 @@
+# ninja log v6
+17865	18000	1733581492709692843	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	eb22f2a926087bd
+44	17864	1733581492707747634	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	d13e45d403c64f34
+44	17864	1733581492707747634	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	d13e45d403c64f34
+18001	18049	1733581492892914145	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	e6bca3368d3fb420
+18223	18281	1733581493124445051	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	8970a30fae7a85a1
+17865	18000	1733581492709692843	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	eb22f2a926087bd
+18001	18049	1733581492892914145	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	e6bca3368d3fb420
+18049	18106	1733581492949925336	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	ac048048820c8490
+1	44	1733581474889334091	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	da6b74a0e5a66d04
+18106	18168	1733581493011820401	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	189ff829a8cc999b
+18168	18223	1733581493066941506	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	f536966199756dd1
+18049	18106	1733581492949925336	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	ac048048820c8490
+18106	18168	1733581493011820401	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	189ff829a8cc999b
+1	44	1733581474889334091	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	da6b74a0e5a66d04
+18168	18223	1733581493066941506	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	f536966199756dd1
+18223	18281	1733581493124445051	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	8970a30fae7a85a1
+18281	18351	1733581493194732841	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	319a27a73f81f35e
+18281	18351	1733581493194732841	CMakeFiles/sfml-populate-complete	319a27a73f81f35e
+18281	18351	1733581493194732841	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete	319a27a73f81f35e
+18281	18351	1733581493194732841	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	319a27a73f81f35e
+1	86	1733581705468647372	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	eb22f2a926087bd
+1	86	1733581705468647372	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	eb22f2a926087bd
+86	120	1733581705587007000	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	e6bca3368d3fb420
+86	120	1733581705587007000	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	e6bca3368d3fb420
+120	154	1733581705620636000	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	ac048048820c8490
+120	154	1733581705620636000	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	ac048048820c8490
+154	187	1733581705653773000	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	189ff829a8cc999b
+154	187	1733581705653773000	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	189ff829a8cc999b
+187	222	1733581705687743000	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	f536966199756dd1
+187	222	1733581705687743000	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	f536966199756dd1
+222	258	1733581705724759000	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	8970a30fae7a85a1
+222	258	1733581705724759000	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	8970a30fae7a85a1
+258	299	1733581705766243000	CMakeFiles/sfml-populate-complete	319a27a73f81f35e
+258	299	1733581705766243000	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	319a27a73f81f35e
+258	299	1733581705766243000	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete	319a27a73f81f35e
+258	299	1733581705766243000	/Users/mchojna/Documents/Studia/Inzynierka/Programowanie w jezykach C i C++/PJC_C10/PJC_C10_zadanie_2/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	319a27a73f81f35e

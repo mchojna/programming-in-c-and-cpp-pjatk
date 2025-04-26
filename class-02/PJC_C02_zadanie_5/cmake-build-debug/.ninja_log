@@ -1,0 +1,6 @@
+# ninja log v6
+2	602	1728746356903595283	_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o	1687a1a0058eb96c
+3	1006	1728746356903803942	CMakeFiles/PJC_C02_zadanie_5.dir/main.cpp.o	481a7662b128b3a5
+2	1299	1728746356902799894	_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o	6d537e5f67a711bc
+1299	1336	1728746358200309781	_deps/fmt-build/libfmtd.a	fa0a04e876dba92a
+1336	1470	1728746358237333896	PJC_C02_zadanie_5	95a11018b5d156c2
